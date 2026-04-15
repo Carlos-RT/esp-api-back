@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/dolar",
+      "dest": "/api/dolar.js"
+    },
+    {
+      "src": "/api/dolar/(.*)",
+      "dest": "/api/dolar.js"
+    }
+  ]
+}
