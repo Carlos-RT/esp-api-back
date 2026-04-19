@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const DolarSchema = new mongoose.Schema({
   valor: {
-    type: Number,
+    type: String, // ✅ ahora sí acepta el valor encriptado
     required: true
   },
   fecha: {
